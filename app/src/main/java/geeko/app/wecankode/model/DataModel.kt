@@ -8,21 +8,6 @@ class DataModel {
     @SerializedName("total_results")
     @Expose
     var total_results = ""
-    @SerializedName("id")
-    @Expose
-    var id = ""
-    @SerializedName("employee_name")
-    @Expose
-    var employee_name = ""
-    @SerializedName("employee_salary")
-    @Expose
-    var employee_salary = ""
-    @SerializedName("employee_age")
-    @Expose
-    var employee_age = ""
-    @SerializedName("profile_image")
-    @Expose
-    var profile_image = ""
 
     @SerializedName("station_name")
     @Expose
