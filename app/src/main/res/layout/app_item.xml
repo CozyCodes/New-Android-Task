@@ -38,9 +38,9 @@
                           android:layout_height="wrap_content"
                           android:textColor="#FFFF00"
                           android:textSize="12sp"
-                          android:text="Name:"/>
+                          android:text="Station Name:"/>
                 <TextView
-                        android:id="@+id/employee_name"
+                        android:id="@+id/station_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:minWidth="100dp"
@@ -50,50 +50,6 @@
 
             </LinearLayout>
 
-
-            <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="5dp"
-                    android:weightSum="2">
-
-                <TextView android:layout_width="50dp"
-                          android:layout_height="wrap_content"
-                          android:textColor="#FFFF00"
-                          android:textSize="12sp"
-                          android:text="Age:"/>
-
-                <TextView
-                        android:id="@+id/employee_age"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="100dp"
-                        android:text="@{DataModel.stationName}"
-                        android:textColor="#FFFF00"
-                        android:textSize="12sp" />
-            </LinearLayout>
-            <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="5dp"
-                    android:weightSum="2">
-
-                <TextView android:layout_width="50dp"
-                          android:layout_height="wrap_content"
-                          android:textColor="#FFFF00"
-                          android:textSize="12sp"
-                          android:text="Salary:"/>
-                <TextView
-                    android:id="@+id/employee_salary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:minWidth="100dp"
-                    android:text="@{DataModel.stationName}"
-                    android:textColor="#FFFF00"
-                    android:textSize="12sp" />
-            </LinearLayout>
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
